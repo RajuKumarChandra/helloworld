@@ -14,4 +14,8 @@ public class Sample {
     public int addition (int firstNum, int secondNum){
         return firstNum + secondNum;
     }
+    
+    public int subtraction (int firstNum, int secondNum){
+        return firstNum - secondNum;
+    }
 }

@@ -44,6 +44,13 @@ public class SampleJunitTest {
      public void testAddition() {
             
          Sample sample  = new Sample();
-         assertEquals(26, sample.addition(10, 15));
+         assertEquals(25, sample.addition(10, 15));
      }
+     
+    @Test
+    public void testSubtraction() {
+
+        Sample sample = new Sample();
+        assertEquals(25, sample.subtraction(10, 15));
+    }
 }
