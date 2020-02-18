@@ -51,6 +51,6 @@ public class SampleJunitTest {
     public void testSubtraction() {
 
         Sample sample = new Sample();
-        assertEquals(15, sample.subtraction(20, 10));
+        assertEquals(10, sample.subtraction(20, 10));
     }
 }
